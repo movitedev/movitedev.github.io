@@ -93124,20 +93124,21 @@ $1(a){var s=this.a,r=t.S
 return A.a([A.i9(s.hm(B.FU,"Logout"),0,r),A.i9(s.hm(B.FW,"About"),1,r)],t.Lj)},
 $S:39}
 A.qM.prototype={
-qI(){var s=0,r=A.E(t.y),q,p,o,n
+qI(){var s=0,r=A.E(t.y),q,p,o,n,m,l
 var $async$qI=A.F(function(a,b){if(a===1)return A.B(b,r)
 while(true)switch(s){case 0:s=3
 return A.t(A.d1(),$async$qI)
-case 3:n=b
-n.toString
-p=t.N
+case 3:p=b
+o=A.bt("https://movite.onrender.com/users/me")
+n=p!=null?p:""
+m=t.N
 s=4
-return A.t(A.fR(A.bt("https://movite.onrender.com/users/me"),A.R(["Authorization",n],p,p)),$async$qI)
-case 4:o=b
-s=o.b===200?5:6
+return A.t(A.fR(o,A.R(["Authorization",n],m,m)),$async$qI)
+case 4:l=b
+s=l.b===200?5:6
 break
 case 5:s=7
-return A.t(A.C6(A.Ui(B.A.aP(0,A.dr(A.dq(o.e).c.a.h(0,"charset")).aP(0,o.w)))),$async$qI)
+return A.t(A.C6(A.Ui(B.A.aP(0,A.dr(A.dq(l.e).c.a.h(0,"charset")).aP(0,l.w)))),$async$qI)
 case 7:q=!0
 s=1
 break
